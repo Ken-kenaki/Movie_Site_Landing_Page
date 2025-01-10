@@ -42,7 +42,7 @@
     </header>
 
     <div class="banner">
-      <div class="content active">
+      <div class="content active the-little-mermaid">
         <img
           src="Assets/img/the-little-mermaid-title.png"
           alt=""
@@ -67,28 +67,138 @@
           <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
         </div>
       </div>
+
+      <div class="content bg-65">
+        <img src="Assets/img/the-65-title.png" alt="" class="movie-title" />
+
+        <h4>
+          <span>2020</span><span><i>10+</i></span
+          ><span>2h 30min</span><span>Thriller</span>
+        </h4>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          consequuntur excepturi provident esse fugit, quia tempore ex cumque
+          unde maxime, porro velit, sint ad adipisci quis? Deserunt architecto
+          id possimus saepe porro, nostrum dolorem nobis culpa autem quisquam
+          sed cum voluptates maiores libero at quaerat aspernatur earum
+          perferendis explicabo. Ratione.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa-solid fa-play"></i>Watch</a>
+          <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
+        </div>
+      </div>
+
+      <div class="content the-convenant">
+        <img
+          src="Assets/img/the-covenant-title.png"
+          alt=""
+          class="movie-title"
+        />
+
+        <h4>
+          <span>2018</span><span><i>8+</i></span
+          ><span>1h 30min</span><span>Action</span>
+        </h4>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          consequuntur excepturi provident esse fugit, quia tempore ex cumque
+          unde maxime, porro velit, sint ad adipisci quis? Deserunt architecto
+          id possimus saepe porro, nostrum dolorem nobis culpa autem quisquam
+          sed cum voluptates maiores libero at quaerat aspernatur earum
+          perferendis explicabo. Ratione.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa-solid fa-play"></i>Watch</a>
+          <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
+        </div>
+      </div>
+
+      <div class="content the-black-demon">
+        <img
+          src="Assets/img/the-black-demon-title.png"
+          alt=""
+          class="movie-title"
+        />
+
+        <h4>
+          <span>2020</span><span><i>12+</i></span
+          ><span>2h 5min</span><span>Horror</span>
+        </h4>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          consequuntur excepturi provident esse fugit, quia tempore ex cumque
+          unde maxime, porro velit, sint ad adipisci quis? Deserunt architecto
+          id possimus saepe porro, nostrum dolorem nobis culpa autem quisquam
+          sed cum voluptates maiores libero at quaerat aspernatur earum
+          perferendis explicabo. Ratione.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa-solid fa-play"></i>Watch</a>
+          <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
+        </div>
+      </div>
+
+      <div class="content the-tank">
+        <img src="Assets/img/the-tank-title.png" alt="" class="movie-title" />
+
+        <h4>
+          <span>2002</span><span><i>11+</i></span
+          ><span>2h 40min</span><span>Action</span>
+        </h4>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          consequuntur excepturi provident esse fugit, quia tempore ex cumque
+          unde maxime, porro velit, sint ad adipisci quis? Deserunt architecto
+          id possimus saepe porro, nostrum dolorem nobis culpa autem quisquam
+          sed cum voluptates maiores libero at quaerat aspernatur earum
+          perferendis explicabo. Ratione.
+        </p>
+        <div class="button">
+          <a href="#"><i class="fa-solid fa-play"></i>Watch</a>
+          <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
+        </div>
+      </div>
+
       <div class="carosuel-box">
         <div class="carousel">
-          <div class="carousel-item">
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-little-mermaid.jpg', 'the-little-mermaid')"
+          >
             <img src="Assets/movies/the-little-mermaid.jpeg" alt="" />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" onclick="changeBg('bg-65.jpeg', 'bg-65')">
             <img src="Assets/movies/65.jpg" alt="" />
           </div>
-          <div class="carousel-item">
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-covenant.jpeg', 'the-convenant')"
+          >
             <img src="Assets/movies/the-covenant.jpg" alt="" />
           </div>
-          <div class="carousel-item">
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-black-demon.jpeg', 'the-black-demon')"
+          >
             <img src="Assets/movies/the-black-demon.jpg" alt="" />
           </div>
-          <div class="carousel-item">
+          <div
+            class="carousel-item"
+            onclick="changeBg('bg-the-tank.jpeg', 'the-tank')"
+          >
             <img src="Assets/movies/the-tank.jpeg" alt="" />
           </div>
         </div>
       </div>
-      <a href="#" class="play"
-        ><i class="fa-regular fa-circle-play"></i>Watch Trailer</a
-      >
+      <a href="#" class="play">
+        <i class="fa-regular fa-circle-play"></i>
+        Watch Trailer
+      </a>
       <ul class="src">
         <li>
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -100,6 +210,15 @@
           <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </li>
       </ul>
+      <div class="trailer">
+        <video
+          src="/Assets/video/moana.mp4"
+          muted
+          controls="true"
+          autoplay="true"
+        ></video>
+        <img src="Assets/img/close.png" alt="" class="close" />
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
